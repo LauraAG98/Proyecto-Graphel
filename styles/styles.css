@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    background-color: rgba(2, 5, 24, 0.952);
+    box-shadow: 0 7px rgba(24, 168, 235, 0.925);
+    height: 80px;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    margin-left: 10px;
+    color: rgba(24, 168, 235, 0.925);
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: rgba(24, 168, 235, 0.925);
+}
+
+.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    height: 490px;
+}
+
+h1 {
+    display: flex;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#textoPrin {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 200px;
+    width: 900px;
+}
+
+.suscribete {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(2, 5, 24, 0.952);
+    box-shadow: 0 0;
+    margin: 0px
+}
+
+h3 {
+    color: white;
+}
+
+#botones {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    box-shadow: 0 0;
+    margin: 0;
+    width: 410px;
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 60, 0);
+    margin-left: 6px;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+}
+
+input {
+    display: flex;
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 232, 232);
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.secc1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 50px;
+    box-shadow: 0 0;
+    width: 200px;
+}
+
+#img1 {
+    display: flex;
+    height: 100px;
+}
+
+strong {
+    display: flex;
+    margin-top: 30px;
+}
+
+#texto1 {
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90px;
+    background-color: rgba(24, 168, 235, 0.925);
+}
+
+.nosotros {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 7px rgba(24, 168, 235, 0.925);
+        height: 80px;
+    }
+
+    h2 {
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        align-items: center;
+    }
+
+    span {
+        display: flex;
+        margin-left: 10px;
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 500px;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav a:hover {
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    h1 {
+        display: flex;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    #textoPrin {
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 200px;
+        width: 900px;
+    }
+
+    #susbcribete {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 0;
+    }
+
+    #subs {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    #botones {
+        display: flex;
+        background-color: transparent;
+        box-shadow: 0 0;
+        width: 410px;
+    }
+
+    #boton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(255, 60, 0);
+        margin-left: 6px;
+        padding: 5px;
+        width: 150px;
+        height: 35px;
+    }
+
+    input {
+        display: flex;
+        padding: 5px;
+        height: 30px;
+        width: 250px;
+    }
+
+    .seccion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(240, 232, 232);
+        height: 530px;
+    }
+
+    .caja {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        background-color: transparent;
+        height: 500px;
+    }
+
+    .subtitulo {
+        display: flex;
+        color: black;
+        font-size: 20px;;
+        width: 712px;
+    }
+
+    #texto2 {
+        display: flex;
+        margin-right: 60px;
+        width: 650px;
+    }
+
+    #texto3 {
+        display: flex;
+        color: white;
+        background-color: rgba(38, 51, 66, 0.945);
+        margin-right: 60px;
+        padding: 20px 25px 20px 25px;
+        width: 600px;
+    }
+
+    #img2 {
+        display: flex;
+        margin-right: 60px;
+        width: 650px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(38, 51, 66, 0.945);
+        box-shadow: 0 0;
+        padding: 40px 10px 40px 15px;
+        margin-top: 20px;
+        width: 300px;
+        height: 150px;
+    }
+
+    #subtituloN {
+        display: flex;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    #textoA {
+        display: flex;
+        color: white;
+        width: 300px;
+        ;
+    }
+}
+
+.servicios {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 7px rgba(24, 168, 235, 0.925);
+        height: 80px;
+    }
+
+    h2 {
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        align-items: center;
+    }
+
+    span {
+        display: flex;
+        margin-left: 10px;
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 500px;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav a:hover {
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    h1 {
+        display: flex;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    #textoPrin {
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 200px;
+        width: 900px;
+    }
+
+    #susbcribete {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 0;
+    }
+
+    #subs {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    #botones {
+        display: flex;
+        background-color: transparent;
+        box-shadow: 0 0;
+        width: 410px;
+    }
+
+    #boton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(255, 60, 0);
+        margin-left: 6px;
+        padding: 5px;
+        width: 150px;
+        height: 35px;
+    }
+
+    input {
+        display: flex;
+        padding: 5px;
+        height: 30px;
+        width: 250px;
+    }
+
+    .seccion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(240, 232, 232);
+        height: 680px;
+    }
+
+    .caja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+        background-color: transparent;
+        height: 590px;
+    }
+
+    .subtitulo {
+        display: flex;
+        color: black;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 712px;
+    }
+
+    .caja1 {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        background-color: rgba(153, 152, 152, 0.205);
+        border: 1px solid rgba(128, 128, 128, 0.466);
+        box-shadow: 0 0;
+        padding: 40px 0px 40px 20px;
+        margin-right: 50px;
+        margin-top: 5px;
+        width: 640px;
+        height: 500px;
+    }
+
+    #subt {
+        display: flex;
+        color: black;
+        margin-bottom: 10px;
+        width: 640px;
+    }
+
+    #textoCa {
+        display: flex;
+        justify-content: left;
+        margin-top: 20px;
+        width: 640px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(38, 51, 66, 0.945);
+        box-shadow: 0 0;
+        padding: 40px 10px 40px 15px;
+        margin-top: 20px;
+        width: 300px;
+        height: 150px;
+    }
+
+    #subtituloN {
+        display: flex;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    #textoA {
+        display: flex;
+        color: white;
+        width: 300px;
+    }
+}
+
+.contacto {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 7px rgba(24, 168, 235, 0.925);
+        height: 80px;
+    }
+
+    h2 {
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        align-items: center;
+    }
+
+    span {
+        display: flex;
+        margin-left: 10px;
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 500px;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav a:hover {
+        color: rgba(24, 168, 235, 0.925);
+    }
+
+    h1 {
+        display: flex;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    #textoPrin {
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 200px;
+        width: 900px;
+    }
+
+    #susbcribete {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(2, 5, 24, 0.952);
+        box-shadow: 0 0;
+    }
+
+    #subs {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    #botones {
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        box-shadow: 0 0;
+        width: 410px;
+    }
+
+    #boton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(255, 60, 0);
+        margin-left: 6px;
+        padding: 5px;
+        width: 150px;
+        height: 35px;
+    }
+
+    input {
+        display: flex;
+        padding: 5px;
+        height: 30px;
+        width: 250px;
+    }
+
+    .seccion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(240, 232, 232);
+        height: 650px;
+    }
+
+    .caja {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        background-color: transparent;
+        height: 590px;
+    }
+
+    .caja1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        color: black;
+        background-color: rgba(153, 152, 152, 0.205);
+        border: 1px solid rgba(128, 128, 128, 0.466);
+        box-shadow: 0 0;
+        padding: 40px 0px 40px 25px;
+        margin-bottom: 500px;
+        width: 650px;
+        height: 500px;
+    }
+
+    .subtitulo {
+        display: flex;
+        color: black;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 712px;
+    }
+
+    #tInfo {
+        display: flex;
+        width: 700px;
+    }
+
+    #informacion {
+        display: flex;
+        margin-right: 45px;
+        margin-bottom: 5px;
+        padding: 5px;
+        width: 650px;
+    }
+
+    #informacion1 {
+        display: flex;
+        vertical-align: text-top;
+        resize: none;
+        margin-right: 45px;
+        margin-bottom: 5px;
+        padding: 5px;
+        width: 650px;
+        height: 150px;
+    }
+
+    #botonEnviar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(255, 60, 0);
+        margin-right: 44px;
+        width: 655px;
+        height: 35px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(38, 51, 66, 0.945);
+        box-shadow: 0 0;
+        padding: 40px 10px 40px 15px;
+        margin-top: 20px;
+        width: 300px;
+        height: 150px;
+    }
+
+    #subtituloN {
+        display: flex;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    #textoA {
+        display: flex;
+        color: white;
+        width: 300px;
+    }
+
+    #imgM {
+        display: flex;
+        margin-top: 50px;
+        margin-right: 5px;
+        width: 330px;
+    }
+}
